@@ -13,9 +13,9 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		MyLib lib = new MyLib();
 		int result = lib.add(100, 200);
-	
+		int result2= lib.subtract(300, 200);
 		TextView resultView = (TextView) findViewById(R.id.ID_TextView_Hello);
-		resultView.setText(String.valueOf(result));
+		resultView.setText(String.valueOf(result2));
 	}
 
 	@Override
