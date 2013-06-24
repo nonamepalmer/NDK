@@ -14,6 +14,8 @@ extern "C" {
  */
 JNIEXPORT jint JNICALL Java_com_example_ndk_MyLib_add
   (JNIEnv *, jobject, jint, jint);
+JNIEXPORT jint JNICALL Java_com_example_ndk_MyLib_subtract
+  (JNIEnv *, jobject, jint, jint);
 
 #ifdef __cplusplus
 }
