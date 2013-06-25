@@ -14,6 +14,7 @@ public class MainActivity extends Activity {
 		MyLib lib = new MyLib();
 		int result = lib.add(100, 200);
 		int result2= lib.subtract(300, 200);
+		int test2=12;
 		TextView resultView = (TextView) findViewById(R.id.ID_TextView_Hello);
 		resultView.setText(String.valueOf(result2));
 	}
