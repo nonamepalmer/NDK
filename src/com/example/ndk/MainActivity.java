@@ -12,6 +12,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		MyLib lib = new MyLib();
+        int test= 123;
+
 		int result = lib.add(100, 200);
 		int result2= lib.subtract(300, 200);
 		int test2=12;
